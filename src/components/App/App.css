@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Nekst-Black";
+  src: url(../../fonts/Nekst/Nekst-Black.woff2) format('woff2'),
+    url(../../fonts/Nekst/Nekst-Black.woff) format('woff');
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../../fonts/Gilroy/Gilroy-Black.woff2) format('woff2'),
+    url(../../fonts/Gilroy/Gilroy-Black.woff) format('woff');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 213px 47px 0px;
+}
+
+.title {
+  max-width: 750px;
+}
+
+.title p {
+  font-family: 'Nekst-Black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 90%;
+  color: #111111;
+}
+
+
+
